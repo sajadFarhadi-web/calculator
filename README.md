@@ -1,6 +1,6 @@
 # calculator
 
-![viewfinal](https://user-images.githubusercontent.com/122044544/235886968-51458b85-235d-41c5-b141-35dec04cee7e.mp4)
+(https://user-images.githubusercontent.com/122044544/235886968-51458b85-235d-41c5-b141-35dec04cee7e.mp4)
 
 - [Demo Project](https://sajadfarhadi-web.github.io/calculator/)
 
