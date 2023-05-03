@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  outline: none;
+  border: none;
+}
+
+main {
+  height: 100vh;
+  background-color: rgba(17, 17, 17, 0.8470588235);
+}
+
+form {
+  display: flex;
+  background-color: rgba(16, 145, 215, 0.6470588235);
+  width: 330px;
+  border-radius: 10px;
+  position: relative;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  flex-wrap: wrap;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(16, 145, 215, 0.6470588235);
+}
+form #ds {
+  display: flex;
+  background-color: rgba(200, 200, 221, 0.6705882353);
+  height: 70px;
+  font-size: 34px;
+  color: #2e2b2b;
+  text-align: left;
+  border-radius: 8px;
+  width: 100%;
+  margin: 5px;
+  padding: 0 10px;
+  box-shadow: 0.8px 0.8px 6px rgba(41, 41, 43, 0.826);
+  align-items: center;
+}
+form .cl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #363639;
+  border-radius: 8px;
+  height: 50px;
+  width: 20%;
+  margin: 5px;
+  margin-left: 8px;
+  box-shadow: 0.8px 0.8px 9px rgb(8, 8, 9);
+  font-size: 25px;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.4s;
+}
+form .cl:hover {
+  background-color: rgba(223, 212, 228, 0.557);
+}
+form .cl:nth-last-of-type(1) {
+  background-color: #f06565;
+  color: whitesmoke;
+}
+form .cl:nth-last-of-type(1):hover {
+  background-color: rgba(34, 32, 32, 0.7058823529);
+}
+form .cl:nth-of-type(2) {
+  background-color: rgba(19, 131, 34, 0.8078431373);
+  color: whitesmoke;
+}
+form .cl:nth-of-type(2):hover {
+  background-color: rgba(34, 32, 32, 0.6980392157);
+}/*# sourceMappingURL=mater.css.map */
